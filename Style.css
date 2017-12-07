@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+
+    height: 5378px;
+}
+.wrap{
+    width: 1600px;
+    margin: 0 auto;
+}
+.linkButton{
+    width: 140px;
+    border: 1px solid #00e0d0;
+    color:  #00e0d0;
+    margin: 52px auto;
+    font-size: 16px;
+    text-align: center;
+    font-family: Hammersmith One ;
+
+}
+
+header {
+    height: 671px;
+    background: url("images/put-your-image-here.png") no-repeat #403168;
+}
+.fond{
+    height: inherit;
+    background-color: rgba(76, 61, 114, 0.8);
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    font-style: normal;
+    font-family: Playfair Display - Black;
+}
+
+h4{
+    margin-top: 55px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    font-family: Roboto;
+}
+#logo{
+    margin-left: 235px;
+}
+#logo .tajam{
+    margin-top: 25px;
+    float: left;
+}
+#logo .image {
+    display: block;
+    background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+}
+#logo .name{
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 73px;
+    height: 29px;
+    color: #4AA3CC;
+    font-family: "Roboto - Thin";
+    font-size: 30px;
+    font-weight: 400;
+    float: left;
+}
+
+.contentButton a {
+    display: inline-block;
+    padding: 13px 15px;
+}
+
+.contentButton:hover {
+    background-color: #00e0d0;
+    color: #ffffff;
+}
+
+.navigation{
+    float: right;
+    margin-top: 30px;
+    margin-right: 157px;
+    padding: 5px;
+}
+.navigation li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+.navigation a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roboto Black;
+}
+.navigation a:hover{
+    color: #00E0D0;
+}
+.clearfix{
+    clear: both;
+}
+.curPosition{
+    width: 65px;
+    height: 10px;
+    margin:  127px auto;
+}
+.dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #c2c2c2;
+    border-radius: 50%;
+}
+.dot:hover{
+    background: #00E0D0;
+}
+.about{
+    padding-left: 320px;
+    height: 400px;
+}
+
+.aboutImage{
+width: 245px;
+    float: left;
+    margin-top: 70px;
+}
+.aboutText{
+    float: left;
+    margin-left: 175px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.about p{
+    font-size: 18px;
+}
+.about .p1{
+    font-size: 22px;
+    font-weight: 700;
+}
+.about .p2{
+    margin-top: 20px;
+}
+
+.about .contentButton {
+    margin-left: 415px;
+    clear: both;
+
+}
+.video{
+height: 550px;
+    background: url("images/town.png") no-repeat #403168;
+    position: relative;
+}
+.play{
+    position: absolute;
+    left: 720px;
+    top: 200px;
+    width: 156px;
+    height: 146px;
+    border: 2px solid red;
+}
+.playIcon{
+    margin: auto;
+    border:  3px solid #ffffff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.playIcon a{
+    display: block;
+    margin: 25px 35px;
+}
+
+/*header {*/
+    /*!*position: relative;*!*/
+    /*height: 671px;*/
+    /*background: url("images/put-your-image-here.png") no-repeat #403168;*/
+/*}*/
+/*.fond{*/
+    /*height: inherit;*/
+    /*background-color: rgba(76, 61, 114, 0.8);*/
+/*}*/
