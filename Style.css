@@ -30,10 +30,14 @@ body {
 header {
     height: 671px;
     background: url("images/put-your-image-here.png") no-repeat #403168;
+    /*background: linear-gradient(to right, #09052f 0%, #311d5e 100%);*/
 }
 .fond{
     height: inherit;
-    background-color: rgba(76, 61, 114, 0.8);
+    background-color: rgba(37, 27, 86, 0.8);
+    /*background: linear-gradient(to right, #09052f 0%, #311d5e 100%);*/
+    /*background: url("images/put-your-image-here.png") no-repeat #403168;*/
+    /*opacity: 0.2;*/
 }
 
 h1{
@@ -407,8 +411,9 @@ p.quote:before {
 }
 .form{
     width: 530px;
-    border: 1px solid red;
-    margin-left: 255px;
+    /*border: 1px solid red;*/
+    margin-left: 140px;
+    margin-right: 118px;
     float: left;
 }
 .userForm{
@@ -438,4 +443,24 @@ textarea.userForm {
 }
 .clients{
     float: right;
+}
+.clientsBox{
+    width: 185px;
+    height: 490px;
+    /*border: 2px solid yellowgreen;*/
+    margin-right: 70px;
+}
+.logosLeft{
+    float: left;
+}
+.logosRight{
+    float: right;
+}
+.logos img{
+    margin-bottom: 65px;
+}
+.footer{
+    margin-top: 65px;
+    background: url("images/footer.png");
+    height: 404px;
 }
