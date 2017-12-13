@@ -73,7 +73,7 @@ h4{
     display: block;
     background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
 }
- .name{
+ .tajam + .name{
     margin-top: 25px;
     margin-left: 15px;
     width: 73px;
@@ -212,7 +212,7 @@ height: 550px;
 }
 p.title {
     font-size: 22px;
-    font-family: Playfair Display;
+    font-family: Roboto;
     letter-spacing: 1.1px;
 
 }
@@ -226,7 +226,7 @@ p.subTitle{
     width: 1250px;
     height: inherit;
     color: white;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 .items .itemsLevel{
     width: 1090px;
@@ -466,7 +466,7 @@ textarea.userForm {
     height: 404px;
 }
 .content{
-    border: 2px solid gold;
+    /*border: 2px solid gold;*/
     width: 325px;
     height: 220px;
     float: left;
@@ -476,12 +476,87 @@ textarea.userForm {
 .footerLinks{
     width: inherit;
     height: 50px;
-    border: 2px solid gold;
+    /*border: 2px solid gold;*/
 
 }
 .footer .items{
     height: 329px;
 }
 #footerLogo{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+}
+.content p{
+    padding-top: 23px;
+}
+.map img {
+   width: 20px;
+    height: 25px;
+    float: left;
+    margin-top: 21px;
+}
+p.map{
+    float: right;
+    width: 269px;
+}
+.input input{
+    width: 211px;
+    height: 48px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    opacity: 0.5;
+    display: block;
+    float: left;
+
+}
+.input {
+    margin-top: 24px;
+    width: inherit;
+    /*height: 48px;*/
+    float: left;
+
+}
+::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+.subscribeButton{
+    width: 75px;
+    height: 45px;
+    float: left;
+    margin-left: 15px;
+    background: #a099b3 ;
+}
+.subscribeButton img{
+    margin-left: 23px;
+    margin-top: 9px;
+}
+.social{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    margin-right: 5px;
+}
+.socialLinks{
+    padding-top: 18px;
+}
+.social img{
+    padding-left: 9px;
+    padding-top: 10px;
+}
+.terms{
+    padding-left: 238px;
+    float: left;
+}
+.terms p{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.copyright p{
+    float: right;
+    color: white;
+    margin-right: 218px;
 }
